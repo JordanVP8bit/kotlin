@@ -6,7 +6,7 @@ fun main() {
 }
 
 fun fallingDistance(time: Double): Double {
-    val g = 9.8 // Acceleration due to gravity in m/s^2
+    val g = 9.8
 
     val distance = 0.5 * g * time * time
     return distance
