@@ -1,6 +1,6 @@
 fun main () {
     println("What rating is your movie?( PG, PG-13, R)")
-    val movieRating = readln().trim()
+    val movieRating = readln()?.toupperCase()
 
     println("How old are you?")
     val age = readlnOrNull()!!.toInt()
